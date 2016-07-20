@@ -1,23 +1,44 @@
-{
-  "Name": "James Bond",
-  "Age": "40",
-  "Gun": {
-    "name": "Revolvers",
-    "type": "Colt",
-    "caliber": "45"
+[
+  {
+    "Name": "James Bond",
+    "Age": "40",
+    "Gun": {
+      "name": "Revolvers",
+      "type": "Colt",
+      "caliber": "45"
+    },
+    "Kills": [
+      {
+        "name": "Dr Evil",
+        "date": "1965-05-05"
+      },
+      {
+        "name": "Moneypenny",
+        "date": "1967-05-05"
+      },
+      {
+        "name": "Spectre",
+        "date": "1968-05-05"
+      }
+    ]
   },
-  "Kills": [
-    {
-      "name": "Dr Evil",
-      "date": "1965-05-05"
+  {
+    "Name": "Jason Bourne",
+    "Age": "unknown",
+    "Gun": {
+      "name": "Walther P5 Compact",
+      "type": "Pistol",
+      "caliber": "7.65"
     },
-    {
-      "name": "Moneypenny",
-      "date": "1967-05-05"
-    },
-    {
-      "name": "Spectre",
-      "date": "1968-05-05"
-    }
-  ]
-}
+    "Kills": [
+      {
+        "name": "The Professor",
+        "date": "2000-07-15"
+      },
+      {
+        "name": "Random guy",
+        "date": "2001-02-28"
+      }
+    ]
+  }
+]
